@@ -18,6 +18,7 @@ namespace ChallengeHeroMonsterClassesPart1
             hero.AttackBonus = true;
 
             Character monster = new Character();
+            monster.Name = "Monster";
             monster.Health = 100;
             monster.DamageMaximum = 25;
             monster.AttackBonus = false;
@@ -31,6 +32,7 @@ namespace ChallengeHeroMonsterClassesPart1
 
         private void DisplayStats(Character character)
         {
+            resultLabel.Text += String.Format("Name: {0}, Health: {1}, Damage Maximum: {2}, Attack Bonus: {3}</br>", 
                 character.Name, character.Health, character.DamageMaximum, character.AttackBonus);
         }   
     }
