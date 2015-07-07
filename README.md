@@ -3,9 +3,6 @@ Create a Character class with two instances
 
 **Business Requirements**
 
-REQUIREMENTS
-=============
-
 1. Name the project: ChallengeHeroMonsterClassesPart1
 
 2. Create a Character class
